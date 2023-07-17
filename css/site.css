@@ -1,0 +1,121 @@
+* {
+    font-family: 'Syne Mono', 'Courier New', Courier, monospace;
+}
+
+.data {
+    padding: 20px;
+    flex-grow: 1;
+    font-size: large;
+}
+
+#heading-container {
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    color: white;
+    flex-grow: 1;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+tr {
+    padding: 10px;
+}
+
+th, td {
+    font-size: x-large;
+}
+
+th {
+    border-bottom: 1px solid;
+}
+
+#game-container {
+    color: black;
+    margin: auto;
+    background-color: #4b4b4b;
+    background-image: url("../img/background-image.png");
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#ball {
+    border-radius: 50%;
+    background-color: rgb(20, 20, 172);
+    border: 3px solid aquamarine;
+    box-sizing: border-box;
+}
+
+#paddle {
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.brick {
+    background-color:rgb(61, 221, 141);
+    border-radius: 2%;
+    border: 3px blue;
+    box-sizing: border-box;
+}
+
+#menu {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    box-sizing: border-box;
+    font-size: xx-large;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 90%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    /* flex-shrink: 1; */
+}
+
+span {
+    width: 90%;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    background-color: aquamarine;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover, svg:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
