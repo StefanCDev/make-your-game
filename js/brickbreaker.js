@@ -13,6 +13,7 @@ const GAME_HEIGHT = 1000;
 const HEADING_WIDTH = GAME_WIDTH;
 const HEADING_HEIGHT = 64;
 
+
 class Paddle {
     width;
     height;
@@ -406,8 +407,8 @@ async function loadGameOverDomAsync() {
     textInput.select();
 }
 
-async function highScores(data) {
-    let output = await getHighScoresAsync(data);
+async function highScores() {
+    let output = await getHighScoresAsync();
     
     // console.log("Congrats ");
     loadHighScoresDom(output);
@@ -525,11 +526,12 @@ async function getHighScoresAsync() {
 
 let keyState = {};
 
-window.addEventListener("load", () => {
-    newGame();
-    dom.reset(body);
-    loadNewGameDom();
-})
+// window.addEventListener("load", () => {
+//     console.log("Page Load - Should only happen once!")
+//     newGame();
+//     dom.reset(body);
+//     loadNewGameDom();
+// })
 
 function initBricks(width, height, cols, rows) {
     let gapCount = cols+1;
@@ -576,3 +578,8 @@ window.addEventListener("keyup", (event) => {
             break;
     }
 })
+
+console.log("Page Load - Should only happen once!")
+newGame();
+dom.reset(body);
+loadNewGameDom();
