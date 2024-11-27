@@ -27,12 +27,12 @@ Backend (Scoreboard): Go (Golang) for handling and storing the scoreboard.
 Setup
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/StefanCDev/brickbreaker-game.git
 Remove the Scoreboard from the Parent Directory:
 
 The scoreboard code is implemented in a separate directory and should be removed from the parent directory before running the game.
+
 To run the game:
 
 Open the index.html file in your browser after the scoreboard has been removed.
