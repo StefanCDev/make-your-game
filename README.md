@@ -41,6 +41,8 @@ Backend (Scoreboard) Setup:
 Make sure Go is installed on your machine.
 Clone the backend repository from: Brickbreaker Scoreboard.
 Follow the instructions in the Go repository to set up and run the scoreboard before starting the JavaScript game.
+Alternatively you can run the game without scoreboard using this link: https://illustrious-souffle-aae250.netlify.app/
+
 For development:
 
 Open the project in your code editor (VS Code recommended).
